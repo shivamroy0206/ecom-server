@@ -22,7 +22,7 @@ const connectDb = async () => {
   try {
     await
     mongoose.connect(process.env.MONGO_URI , {
-      dbName: "test",
+      dbName: "ecom",
     });
    console.log("MongoDB connected");
   }
